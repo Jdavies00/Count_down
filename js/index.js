@@ -6,9 +6,9 @@ var greatScott= document.getElementById("button");
 greatScott.addEventListener("click",function(){
 
 
-var tHours= document.getElementById("hours");
-var tMinutes= document.getElementById("minutes");
-var tSeconds= document.getElementById("seconds");
+var tHours= document.getElementById("hours").value;
+var tMinutes= document.getElementById("minutes").value;
+var tSeconds= document.getElementById("seconds").value;
 
 var TotalCurrentTime = new Date().getTime();
 TotalCurrentTime = TotalCurrentTime + (1000 * tSeconds) +(1000 * 60 * tMinutes)+ (1000 * 60 * 60 * tHours);

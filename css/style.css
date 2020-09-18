@@ -10,12 +10,13 @@ header {
 
 body {background-color: rgba(2, 0, 3, 0.897)
 }
-
-#hours, #minutes, #seconds {
-    align-content: center;
-    margin-top: 50px;
+#input{
+    text-align: center;
+}
+#hours_label, #minutes_label, #seconds_label {
+    margin-top: 50spx;
     color: chartreuse;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 } 
 
