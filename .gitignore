@@ -1,0 +1,3 @@
+      <!-- <input type="submit" value="submit"></input> -->
+input type="datetime-local" id="InputDate" name="Input" ></input><br>
+      <button onclick="difference (document.getElementById('InputDate').value)">Submit</button>
