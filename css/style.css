@@ -1,0 +1,43 @@
+
+header {
+    font-size: 50px;
+    margin-top: 50px ;
+    text-align: center;
+    font-style: italic;
+    color: chartreuse;
+}
+
+
+body {background-color: rgba(2, 0, 3, 0.897)
+}
+
+#hours, #minutes, #seconds {
+    align-content: center;
+    margin-top: 50px;
+    color: chartreuse;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+#button{
+    border: black;
+    color : black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.container{
+    height: 200px;
+    position: relative;
+    padding-top: 25px;
+    align-content: center;
+
+} 
+
+#countOnMe{
+    font-size: 50px;
+    color: chartreuse;
+}
